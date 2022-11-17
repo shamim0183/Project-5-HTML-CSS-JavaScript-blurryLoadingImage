@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.bg {
+    /* background: url('https: //images.unsplash.com/photo-1616106372316-78b0992e794f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fG1hY2F3JTIwcGFycm90fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover; */
+    background: url(/alan-godfrey-xRVVfI2aw4k-unsplash.jpg) 
+    no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
